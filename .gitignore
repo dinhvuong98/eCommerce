@@ -1,4 +1,7 @@
 /.idea/
+/target
+auth-course.iml
+logs/
 
 # Compiled class file
 *.class
