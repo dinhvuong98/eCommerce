@@ -44,6 +44,7 @@ public class UserController {
 
     @PostMapping("/create")
     public ResponseEntity<User> createUser(@RequestBody CreateUserRequest createUserRequest) {
+        // add Comment test CI-CD Jenkins
         User user = new User();
         user.setUsername(createUserRequest.getUsername());
 
