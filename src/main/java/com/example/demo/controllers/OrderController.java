@@ -46,7 +46,7 @@ public class OrderController {
             log.info("Order successfully with username: " + username);
             return ResponseEntity.ok(order);
         } catch (Exception e) {
-            log.error("Something went wrong, please try again");
+            log.error("Something went wrong");
             log.error("Error: " + e.getMessage());
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
